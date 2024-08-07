@@ -24,7 +24,7 @@ class Library:
         for book in self.books:
             if book.title.lower() == title.lower() and book.author.lower() == author.lower():
                 return book
-        return None  # Try without this
+        return None  # Try without this // seems to be working fine
 
     # gets the book from _get_book method and removes it from the list
     def remove_book(self, title: str, author: str):

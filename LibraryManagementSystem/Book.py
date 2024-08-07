@@ -15,7 +15,7 @@ class Book:
             self.available = False
             print(f"{self.title} is being borrowed")
         else:
-            print("Book not available")
+            print("Book borrowed already")
 
     # checks if the book is not available and sets it to available
     def return_book(self):
