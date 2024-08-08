@@ -34,6 +34,9 @@ class Student:
         return f"{self._name}, {self._id}, {self._major}"
 
 
+    # TESTS
+
+
 if __name__ == "__main__":
     test_student = Student
     print(test_student)
