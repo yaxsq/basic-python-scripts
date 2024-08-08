@@ -21,15 +21,22 @@ class Undergrad(Student):
         return super().__str__() + f", {self._year}"
 
     # TESTS
+
+
 if __name__ == "__main__":
     test_student = Undergrad
     print(test_student)
 
     test_student = Undergrad("UG", 1, "CS", 2022)
-    print("\nShould print UG, 1, CE, 2022")
+    print("\nShould print UG, 1, CS, 2022")
     print(test_student)
 
     test_student.update_major("Amogus")
     print("\nShould print UG, 1, Amogus")
     print(test_student)
 
+    # test_student.update_year(2027)
+    # print(test_student)         # should result in invalid year error
+
+    test_student.update_year(2024)
+    print(test_student)

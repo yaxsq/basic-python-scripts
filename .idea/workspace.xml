@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6335c5c9-f424-4118-bd4d-2343cadf0dc7" name="Changes" comment="Student Tested">
-      <change afterPath="$PROJECT_DIR$/StudentManagementSystem/Manager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentManagementSystem/Grad.py" beforeDir="false" afterPath="$PROJECT_DIR$/StudentManagementSystem/Grad.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudentManagementSystem/Undergrad.py" beforeDir="false" afterPath="$PROJECT_DIR$/StudentManagementSystem/Undergrad.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +43,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.Grad.executor": "Run",
     "Python.Library.executor": "Run",
     "Python.LibraryManagementSystem.executor": "Run",
     "Python.Manager.executor": "Run",
@@ -60,7 +61,29 @@
       <recent name="C:\Users\Shaza\PycharmProjects\basic-python-scripts" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Undergrad">
+  <component name="RunManager" selected="Python.Grad">
+    <configuration name="Grad" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="basic-python-scripts" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StudentManagementSystem" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StudentManagementSystem/Grad.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Manager" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="basic-python-scripts" />
       <option name="ENV_FILES" value="" />
@@ -129,6 +152,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Grad" />
         <item itemvalue="Python.Undergrad" />
         <item itemvalue="Python.Student" />
         <item itemvalue="Python.Manager" />
