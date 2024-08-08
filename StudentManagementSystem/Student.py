@@ -11,15 +11,24 @@ class Student:
 
         if isinstance(name, str) and not name is None:
             self._name = name
-        if isinstance(id, int) and id is not None:      # Can do both / 'not' before and in bw
+        else:
+            raise Exception("Invalid name")
+        if isinstance(id, int) and id is not None:  # Can do both / 'not' before and in bw
             self._id = id
+        else:
+            raise Exception("Invalid id")
         if isinstance(major, str) and major is not None:
             self.major = major
+        else:
+            raise Exception("Invalid major")
 
         # Changes the major to the input
+
     def update_major(self, major: str):
         if isinstance(major, str) and major is not None:
             self.major = major
+        else:
+            raise Exception("Invalid major")
 
     def __str__(self):
         return f"{self._name}, {self._id}, {self.major}"
