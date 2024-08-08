@@ -1,7 +1,7 @@
 class Student:
     _name = ""
     _id = 0
-    major = ""
+    _major = ""
 
     def __init__(self, name: str, id: int, major: str):
         self._name = name
