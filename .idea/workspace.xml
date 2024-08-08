@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6335c5c9-f424-4118-bd4d-2343cadf0dc7" name="Changes" comment="started SMS">
+    <list default="true" id="6335c5c9-f424-4118-bd4d-2343cadf0dc7" name="Changes" comment="Student Tested">
+      <change afterPath="$PROJECT_DIR$/StudentManagementSystem/Manager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentManagementSystem/Student.py" beforeDir="false" afterPath="$PROJECT_DIR$/StudentManagementSystem/Student.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentManagementSystem/Undergrad.py" beforeDir="false" afterPath="$PROJECT_DIR$/StudentManagementSystem/Undergrad.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,25 +40,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.Library.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LibraryManagementSystem.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Manager.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ToDoList.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.Library.executor": "Run",
+    "Python.LibraryManagementSystem.executor": "Run",
+    "Python.Manager.executor": "Run",
+    "Python.Student.executor": "Run",
+    "Python.ToDoList.executor": "Run",
+    "Python.Undergrad.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Shaza\PycharmProjects\basic-python-scripts\LibraryManagementSystem" />
       <recent name="C:\Users\Shaza\PycharmProjects\basic-python-scripts" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Undergrad">
     <configuration name="Manager" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="basic-python-scripts" />
       <option name="ENV_FILES" value="" />
@@ -80,8 +83,54 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Student" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="basic-python-scripts" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StudentManagementSystem" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StudentManagementSystem/Student.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Undergrad" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="basic-python-scripts" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StudentManagementSystem" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StudentManagementSystem/Undergrad.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Undergrad" />
+        <item itemvalue="Python.Student" />
         <item itemvalue="Python.Manager" />
       </list>
     </recent_temporary>
@@ -222,7 +271,55 @@
       <option name="project" value="LOCAL" />
       <updated>1723145285162</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Student.py written">
+      <option name="closed" value="true" />
+      <created>1723149108878</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1723149108878</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Student.py written">
+      <option name="closed" value="true" />
+      <created>1723149188261</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1723149188261</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Student.py type check and None check added">
+      <option name="closed" value="true" />
+      <created>1723150275463</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1723150275463</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Students written">
+      <option name="closed" value="true" />
+      <created>1723152698490</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1723152698490</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Student Tested">
+      <option name="closed" value="true" />
+      <created>1723153599614</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1723153599614</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Student Tested">
+      <option name="closed" value="true" />
+      <created>1723153738736</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1723153738736</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,6 +344,10 @@
     <MESSAGE value="LMS created" />
     <MESSAGE value="Done with Library Managemeny" />
     <MESSAGE value="started SMS" />
-    <option name="LAST_COMMIT_MESSAGE" value="started SMS" />
+    <MESSAGE value="Student.py written" />
+    <MESSAGE value="Student.py type check and None check added" />
+    <MESSAGE value="Students written" />
+    <MESSAGE value="Student Tested" />
+    <option name="LAST_COMMIT_MESSAGE" value="Student Tested" />
   </component>
 </project>
