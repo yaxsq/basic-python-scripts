@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6335c5c9-f424-4118-bd4d-2343cadf0dc7" name="Changes" comment="Wrote manager.py&#10;search methods contain name and int">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudentManagementSystem/Manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/StudentManagementSystem/Manager.py" afterDir="false" />
     </list>
@@ -29,18 +28,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "yaxsq"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;yaxsq&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/yaxsq/basic-python-scripts.git",
-    "accountId": "c5ee244c-b485-4492-99bc-923de248cbb4"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/yaxsq/basic-python-scripts.git&quot;,
+    &quot;accountId&quot;: &quot;c5ee244c-b485-4492-99bc-923de248cbb4&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -58,7 +57,7 @@
     "Python.Grad.executor": "Run",
     "Python.Library.executor": "Run",
     "Python.LibraryManagementSystem.executor": "Run",
-    "Python.Manager (1).executor": "Run",
+    "Python.Manager (1).executor": "Debug",
     "Python.Manager.executor": "Run",
     "Python.Student.executor": "Run",
     "Python.ToDoList.executor": "Run",
@@ -387,7 +386,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723167267841</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Wrote manager.py&#10;search methods contain name and int">
+      <option name="closed" value="true" />
+      <created>1723168276159</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1723168276159</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -418,5 +425,16 @@
     <MESSAGE value="Student Tested" />
     <MESSAGE value="Wrote manager.py&#10;search methods contain name and int" />
     <option name="LAST_COMMIT_MESSAGE" value="Wrote manager.py&#10;search methods contain name and int" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/StudentManagementSystem/Manager.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

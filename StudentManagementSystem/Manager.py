@@ -16,7 +16,7 @@ a list of Student will be created containing undergrad and grad objects
 that local list will then be used to display, modify, etc
 before exiting the program, the file will be written to with the updated data
 
-need to fix unique attribute, update, existing file reading error, polymorphism
+need to fix unique attribute, update, ~existing file reading error~, polymorphism
 
 '''
 
@@ -36,7 +36,7 @@ class Manager:
         try:  # trying to open an existing file
             self.file = open("students.csv", "r")
         except FileNotFoundError:  # trying to make a file since it does not exist
-            self.file = open("students.csv", "x")
+            # self.file = open("students.csv", "x")
             print("File not found, created a new file")
         else:  # reading from the existing file
             reader = csv.reader(self.file)
@@ -55,13 +55,14 @@ class Manager:
     def _write_file(self):
         self.file = open("students.csv", "w")
         for student in self.students:
-            csv.writer(self.file).writerow(str(student).split(", "))
+            if student is not None:
+                csv.writer(self.file).writerow(str(student).split(", "))
         self.file.close()
         print("Data saved successfully")
 
     # returns the corresponding child class of Student based on the unique attribute (year/thesis)
     @staticmethod
-    def _create_student_object(self, line: list) -> Student:
+    def _create_student_object(line: list) -> Student:
         if isinstance(list[3], int):
             return Undergrad(line[0], line[1], line[2], line[3])
         if isinstance(list[3], str):
@@ -69,11 +70,14 @@ class Manager:
 
     # prints data of all students
     def _display_all_students(self):
-        for student in self.students:
-            if isinstance(student, Undergrad):
-                print(f"UG: {student}")
-            if isinstance(student, Grad):
-                print(f"GR: {student}")
+
+        # for student in self.students:
+        #     if isinstance(student, Undergrad):
+        #         print(f"UG: {student}")
+        #     if isinstance(student, Grad):
+        #         print(f"GR: {student}")
+        #     if student is None:
+        #         continue
 
     # adds a new student to the list
     def _add_student(self, name: str, major: str, unique):
@@ -83,7 +87,7 @@ class Manager:
             self.students.append(Grad(name, self._get_new_id(), major, unique))
 
     def _get_new_id(self) -> int:
-        return len(self.students)+1
+        return len(self.students) + 1
 
     # returns a student object from the students list
     def _get_student(self, name: str, id_number: int) -> Student:
@@ -127,7 +131,11 @@ class Manager:
             print("4. Delete a student")
             print("5. Search for a student")
             print("6. Save and Exit")
-            choice = int(input("\nEnter your choice (1-5): "))
+            try:
+                choice = int(input("\nEnter your choice (1-5): "))
+            except ValueError:
+                print("Invalid choice, try again")
+                continue
 
             if choice == 1:
                 self._display_all_students()
@@ -135,13 +143,14 @@ class Manager:
                 self._add_student(str(input("Enter name: ")), str(input("Enter major: ")),
                                   eval(input("Enter year/thesis: ")))
             elif choice == 3:
-                continue        # yet to implement update
+                continue  # yet to implement update
             elif choice == 4:
                 self._delete_student(str(input("Enter name: ")), int(input("Enter id: ")))
             elif choice == 5:
                 print(self._get_student(str(input("Enter name: ")), int(input("Enter id: "))))
             elif choice == 6:
                 break
+
 
 if __name__ == "__main__":
     sms = Manager()
