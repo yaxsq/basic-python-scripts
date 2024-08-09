@@ -2,6 +2,7 @@ from Student import Student
 from Undergrad import Undergrad
 from Grad import Grad
 import csv
+import atexit
 
 '''
 if file exists, open the file and read it
@@ -15,6 +16,8 @@ a list of Student will be created containing undergrad and grad objects
 that local list will then be used to display, modify, etc
 before exiting the program, the file will be written to with the updated data
 
+need to fix unique attribute, update, existing file reading error, polymorphism
+
 '''
 
 
@@ -22,6 +25,7 @@ class Manager:
 
     def __init__(self):
         self.students = []
+        # atexit.register(self._terminate())
         self._read_file()
         self._main()
         self._write_file()
@@ -43,6 +47,8 @@ class Manager:
             try:
                 self.file.close()
             except FileNotFoundError:
+                print("No file to close")
+            except AttributeError:
                 print("No file to close")
 
     # goes through the students list and writes the attributes to the csv file
@@ -108,6 +114,9 @@ class Manager:
     #
     #     if isinstance(update, str):  # update would be thesis
 
+    def _terminate(self):
+        self._write_file()
+
     def _main(self):
         print("\n*** STUDENT MANAGEMENT SYSTEM ***\n")
 
@@ -118,13 +127,13 @@ class Manager:
             print("4. Delete a student")
             print("5. Search for a student")
             print("6. Save and Exit")
-            choice = int(input("Enter your choice (1-5): "))
+            choice = int(input("\nEnter your choice (1-5): "))
 
             if choice == 1:
                 self._display_all_students()
             elif choice == 2:
                 self._add_student(str(input("Enter name: ")), str(input("Enter major: ")),
-                                  str(input("Enter year/thesis: ")))
+                                  eval(input("Enter year/thesis: ")))
             elif choice == 3:
                 continue        # yet to implement update
             elif choice == 4:
@@ -133,3 +142,6 @@ class Manager:
                 print(self._get_student(str(input("Enter name: ")), int(input("Enter id: "))))
             elif choice == 6:
                 break
+
+if __name__ == "__main__":
+    sms = Manager()
