@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6335c5c9-f424-4118-bd4d-2343cadf0dc7" name="Changes" comment="Student Tested">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentManagementSystem/Grad.py" beforeDir="false" afterPath="$PROJECT_DIR$/StudentManagementSystem/Grad.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentManagementSystem/Undergrad.py" beforeDir="false" afterPath="$PROJECT_DIR$/StudentManagementSystem/Undergrad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentManagementSystem/Manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/StudentManagementSystem/Manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentManagementSystem/Student.py" beforeDir="false" afterPath="$PROJECT_DIR$/StudentManagementSystem/Student.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +29,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "yaxsq"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/yaxsq/basic-python-scripts.git",
+    "accountId": "c5ee244c-b485-4492-99bc-923de248cbb4"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -61,7 +73,7 @@
       <recent name="C:\Users\Shaza\PycharmProjects\basic-python-scripts" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Grad">
+  <component name="RunManager" selected="Python.Student">
     <configuration name="Grad" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="basic-python-scripts" />
       <option name="ENV_FILES" value="" />
@@ -152,9 +164,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Student" />
         <item itemvalue="Python.Grad" />
         <item itemvalue="Python.Undergrad" />
-        <item itemvalue="Python.Student" />
         <item itemvalue="Python.Manager" />
       </list>
     </recent_temporary>

@@ -30,6 +30,15 @@ class Student:
         else:
             raise Exception("Invalid major")
 
+    def get_name(self):
+        return self._name
+
+    def get_id(self):
+        return self._id
+
+    def get_major(self):
+        return self._major
+
     def __str__(self):
         return f"{self._name}, {self._id}, {self._major}"
 
