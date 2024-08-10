@@ -13,10 +13,15 @@ class Student:
             self._name = name
         else:
             raise Exception("Invalid name")
-        if isinstance(id, int) and id is not None and id > 0:  # Can do both / 'not' before and in bw
-            self._id = id
+        try:
+            id = int(id)
+        except ValueError:
+            raise Exception("id type invalid")
         else:
-            raise Exception("Invalid id")
+            if isinstance(id, int) and id is not None and id > 0:  # Can do both / 'not' before and in bw
+                self._id = id
+            else:
+                raise Exception("Invalid id")
         if isinstance(major, str) and major is not None:
             self._major = major
         else:
@@ -24,7 +29,7 @@ class Student:
 
         # Changes the major to the input
 
-    def update_major(self, major: str):
+    def update_details(self, major: str):
         if isinstance(major, str) and major is not None:
             self._major = major
         else:
@@ -41,7 +46,6 @@ class Student:
 
     def __str__(self):
         return f"{self._name}, {self._id}, {self._major}"
-
 
     # TESTS
 
@@ -66,6 +70,6 @@ if __name__ == "__main__":
     print("\nShould print Name, 1, CE")
     print(test_student)
 
-    test_student.update_major("Amogus")
+    test_student.update_details("Amogus")
     print("\nShould print Name, 1, Amogus")
     print(test_student)
