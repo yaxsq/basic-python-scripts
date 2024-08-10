@@ -29,7 +29,7 @@ class Student:
 
         # Changes the major to the input
 
-    def update_details(self, major: str):
+    def update_major(self, major: str):
         if isinstance(major, str) and major is not None:
             self._major = major
         else:
@@ -70,6 +70,6 @@ if __name__ == "__main__":
     print("\nShould print Name, 1, CE")
     print(test_student)
 
-    test_student.update_details("Amogus")
+    test_student.update_major("Amogus")
     print("\nShould print Name, 1, Amogus")
     print(test_student)

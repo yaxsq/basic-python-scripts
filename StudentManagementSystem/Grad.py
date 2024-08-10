@@ -34,7 +34,7 @@ if __name__ == "__main__":
     print("\nShould print Gradman, 2, CS, Library Management SUStem")
     print(test_student)
 
-    test_student.update_details("Amogus")
+    test_student.update_major("Amogus")
     print("\nShould print Gradman, 2, Amogus, Library Management SUStem")
     print(test_student)
 

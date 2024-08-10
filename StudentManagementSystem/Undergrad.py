@@ -31,7 +31,7 @@ if __name__ == "__main__":
     print("\nShould print UG, 1, CS, 2022")
     print(test_student)
 
-    test_student.update_details("Amogus")
+    test_student.update_major("Amogus")
     print("\nShould print UG, 1, Amogus")
     print(test_student)
 
