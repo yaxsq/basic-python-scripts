@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6335c5c9-f424-4118-bd4d-2343cadf0dc7" name="Changes" comment="Wrote manager.py&#10;search methods contain name and int">
+    <list default="true" id="6335c5c9-f424-4118-bd4d-2343cadf0dc7" name="Changes" comment="unique attribute changes reversed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudentManagementSystem/Manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/StudentManagementSystem/Manager.py" afterDir="false" />
     </list>
@@ -51,22 +51,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.Grad.executor": "Run",
-    "Python.Library.executor": "Run",
-    "Python.LibraryManagementSystem.executor": "Run",
-    "Python.Manager (1).executor": "Debug",
-    "Python.Manager.executor": "Run",
-    "Python.Student.executor": "Run",
-    "Python.ToDoList.executor": "Run",
-    "Python.Undergrad.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.Grad.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Library.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LibraryManagementSystem.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Manager (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Manager.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Student.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ToDoList.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Undergrad.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Shaza\PycharmProjects\basic-python-scripts\LibraryManagementSystem" />
@@ -394,7 +394,31 @@
       <option name="project" value="LOCAL" />
       <updated>1723168276159</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="fixed file reading error">
+      <option name="closed" value="true" />
+      <created>1723239343418</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1723239343418</updated>
+    </task>
+    <task id="LOCAL-00025" summary="unique attribute changes reversed">
+      <option name="closed" value="true" />
+      <created>1723251737855</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1723251737855</updated>
+    </task>
+    <task id="LOCAL-00026" summary="unique attribute changes reversed">
+      <option name="closed" value="true" />
+      <created>1723252089812</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1723252089812</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -424,17 +448,8 @@
     <MESSAGE value="Students written" />
     <MESSAGE value="Student Tested" />
     <MESSAGE value="Wrote manager.py&#10;search methods contain name and int" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wrote manager.py&#10;search methods contain name and int" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/StudentManagementSystem/Manager.py</url>
-          <line>34</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="fixed file reading error" />
+    <MESSAGE value="unique attribute changes reversed" />
+    <option name="LAST_COMMIT_MESSAGE" value="unique attribute changes reversed" />
   </component>
 </project>
